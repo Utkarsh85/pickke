@@ -100,9 +100,9 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	__webpack_require__(2);
-	__webpack_require__(57);
-	__webpack_require__(42);
-	module.exports = __webpack_require__(41);
+	__webpack_require__(61);
+	__webpack_require__(46);
+	module.exports = __webpack_require__(45);
 
 
 /***/ },
@@ -10334,14 +10334,14 @@
 
 /***/ },
 
-/***/ 41:
+/***/ 45:
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports= __webpack_require__(59);
+	module.exports= __webpack_require__(63);
 
 /***/ },
 
-/***/ 42:
+/***/ 46:
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/* NProgress, (c) 2013, 2014 Rico Sta. Cruz - http://ricostacruz.com/nprogress
@@ -10824,7 +10824,7 @@
 
 /***/ },
 
-/***/ 43:
+/***/ 47:
 /***/ function(module, exports) {
 
 	// shim for using process in browser
@@ -11011,7 +11011,7 @@
 
 /***/ },
 
-/***/ 57:
+/***/ 61:
 /***/ function(module, exports, __webpack_require__) {
 
 	var require;/* WEBPACK VAR INJECTION */(function(process, global) {/*!
@@ -11150,7 +11150,7 @@
 	function attemptVertx() {
 	  try {
 	    var r = require;
-	    var vertx = __webpack_require__(70);
+	    var vertx = __webpack_require__(74);
 	    vertxNext = vertx.runOnLoop || vertx.runOnContext;
 	    return useVertxTimer();
 	  } catch (e) {
@@ -12171,11 +12171,11 @@
 	
 	})));
 	//# sourceMappingURL=es6-promise.map
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(43), (function() { return this; }())))
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(47), (function() { return this; }())))
 
 /***/ },
 
-/***/ 58:
+/***/ 62:
 /***/ function(module, exports) {
 
 	/////////////////////////////////
@@ -12209,12 +12209,12 @@
 
 /***/ },
 
-/***/ 59:
+/***/ 63:
 /***/ function(module, exports, __webpack_require__) {
 
 	// Module dependencies.
-	var util = __webpack_require__(69);
-	var flatten = __webpack_require__(58);
+	var util = __webpack_require__(73);
+	var flatten = __webpack_require__(62);
 	/**
 	 * Middleware Chain module.
 	 * Main middleware chain module export.
@@ -12264,7 +12264,7 @@
 
 /***/ },
 
-/***/ 67:
+/***/ 71:
 /***/ function(module, exports) {
 
 	if (typeof Object.create === 'function') {
@@ -12294,7 +12294,7 @@
 
 /***/ },
 
-/***/ 68:
+/***/ 72:
 /***/ function(module, exports) {
 
 	module.exports = function isBuffer(arg) {
@@ -12306,7 +12306,7 @@
 
 /***/ },
 
-/***/ 69:
+/***/ 73:
 /***/ function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(global, process) {// Copyright Joyent, Inc. and other Node contributors.
@@ -12834,7 +12834,7 @@
 	}
 	exports.isPrimitive = isPrimitive;
 	
-	exports.isBuffer = __webpack_require__(68);
+	exports.isBuffer = __webpack_require__(72);
 	
 	function objectToString(o) {
 	  return Object.prototype.toString.call(o);
@@ -12878,7 +12878,7 @@
 	 *     prototype.
 	 * @param {function} superCtor Constructor function to inherit prototype from.
 	 */
-	exports.inherits = __webpack_require__(67);
+	exports.inherits = __webpack_require__(71);
 	
 	exports._extend = function(origin, add) {
 	  // Don't do anything if add isn't an object
@@ -12896,11 +12896,11 @@
 	  return Object.prototype.hasOwnProperty.call(obj, prop);
 	}
 	
-	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }()), __webpack_require__(43)))
+	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }()), __webpack_require__(47)))
 
 /***/ },
 
-/***/ 70:
+/***/ 74:
 /***/ function(module, exports) {
 
 	/* (ignored) */

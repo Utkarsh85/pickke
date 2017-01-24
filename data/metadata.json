@@ -1,11 +1,8 @@
 {
 	"categories":
 	{
-		"hot":"data/hot/2.json",
-		"funny":"data/funny/2.json",
-		"videos":"data/videos/2.json",
-		"links":"data/links/2.json"
+		"trending":"data/trending/1.json"
 	},
 
-	"default":"data/hot/2.json"
+	"default":"data/trending/1.json"
 }
