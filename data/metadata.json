@@ -1,8 +1,9 @@
 {
 	"categories":
 	{
-		"trending":"data/trending/1.json"
+		"trending":"data/trending/1.json",
+		"funny":"data/funny/1.json"
 	},
 
-	"default":"data/trending/1.json"
+	"default":"data/funny/1.json"
 }
