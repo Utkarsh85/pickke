@@ -12182,7 +12182,11 @@
 	// Array Flatten from http://stackoverflow.com/a/39000004/3853934 thanks to Gothdo
 	/////////////////////////////////
 	
-	var flatten=function(arr, result = []) {
+	var flatten=function(arr, result) {
+	  if(!result)
+	      result=[];
+	  console.log('Changed Code');
+	  
 	  for (let i = 0, length = arr.length; i < length; i++) {
 	    var value = arr[i]
 	    if (Array.isArray(value)) {
